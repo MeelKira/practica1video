@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/estrellas"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="306dp"
+        android:layout_height="693dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/vernotifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Notificacion" />
+
+        <Button
+            android:id="@+id/rep_audio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Audio" />
+
+        <Button
+            android:id="@+id/rep_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Video" />
+
+        <SurfaceView
+            android:id="@+id/reproductor_video"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+
+</RelativeLayout>
